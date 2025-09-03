@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieAI - Home</title>
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="shortcut icon" href="assets/img/favicon.webp" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="/" class="logo">
+                <img src="assets/img/logo.webp" alt="MovieAI">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">New & Popular</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <button class="search-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M21.71 20.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.39zM11 18a7 7 0 1 1 7-7 7 7 0 0 1-7 7z"/>
+                    </svg>
+                </button>
+                <input type="text" placeholder="Titles, people, genres">
+            </div>
+            <div class="user-menu">
+                <img src="assets/img/avatar.png" alt="User" class="avatar">
+                <div class="dropdown-menu">
+                    <a href="#">Profile</a>
+                    <a href="#">Settings</a>
+                    <a href="#">Sign Out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="featured">
+        <div class="featured-content">
+            <h1>Stranger Things</h1>
+            <div class="featured-buttons">
+                <button class="play-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M8 5v14l11-7z"/>
+                    </svg>
+                    Play
+                </button>
+                <button class="more-info-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8z"/>
+                    </svg>
+                    More Info
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="content">
+        <section class="row">
+            <h2>Top Picks For You</h2>
+            <div class="slider">
+                <button class="slider-arrow prev">‹</button>
+                <div class="slider-container">
+                    <div class="slider-item">
+                        <img src="https://m.media-amazon.com/images/M/MV5BYmQ4NWVjN2EtN2U3NC00YzZhLWIzYmMtNjQ0ZjNiN2MzNDI0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Movie 1">
+                    </div>
+                    <div class="slider-item">
+                        <img src="https://m.media-amazon.com/images/M/MV5BYTU3ZDVhNmMtMDVlNC00MDc0LTgwNDMtYWE5MTI2ZGI4YWIwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Movie 2">
+                    </div>
+                    <div class="slider-item">
+                        <img src="https://m.media-amazon.com/images/M/MV5BMWU0YTc0OWYtOWJjNy00ZDYzLWFlMTItMGZkNzM4YjQ5OWQzXkEyXkFqcGc@._V1_.jpg" alt="Movie 3">
+                    </div>
+                    <div class="slider-item">
+                        <img src="https://m.media-amazon.com/images/M/MV5BNTBiYWJlMjQtOTIyMy00NTY4LWFhOWItOWZhNzc3NGMyMjc2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Movie 4">
+                    </div>
+                    <div class="slider-item">
+                        <img src="https://m.media-amazon.com/images/M/MV5BODUyOTc1ZDYtNjc5Ny00MzRkLTg5MDQtYTU3ZjM1MTExY2Y4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Movie 5">
+                    </div>
+                </div>
+                <button class="slider-arrow next">›</button>
+            </div>
+        </section>
+
+        <section class="row">
+            <h2>Trending Now</h2>
+            <div class="slider">
+                <button class="slider-arrow prev">‹</button>
+                <div class="slider-container">
+                    <div class="slider-item">
+                        <img src="https://m.media-amazon.com/images/M/MV5BMzI5ZTcyNmItNTM4Ny00MzJkLWI5NWQtZTFmNjljNWY1NThkXkEyXkFqcGc@._V1_.jpg" alt="Movie 6">
+                    </div>
+                    <div class="slider-item">
+                        <img src="https://m.media-amazon.com/images/M/MV5BYTg0NDJkYWQtZTQyZC00MzQ5LWEwZjAtZTNhODVkNmNiZmYxXkEyXkFqcGc@._V1_.jpg" alt="Movie 7">
+                    </div>
+                    <div class="slider-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHDHsfLAMuUX0Cl58x5WWUzcAsUvTgaiwO0w&s" alt="Movie 8">
+                    </div>
+                    <div class="slider-item">
+                        <img src="https://m.media-amazon.com/images/M/MV5BYmQ4NWVjN2EtN2U3NC00YzZhLWIzYmMtNjQ0ZjNiN2MzNDI0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Movie 9">
+                    </div>
+                    <div class="slider-item">
+                        <img src="https://m.media-amazon.com/images/M/MV5BYTU3ZDVhNmMtMDVlNC00MDc0LTgwNDMtYWE5MTI2ZGI4YWIwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Movie 10">
+                    </div>
+                </div>
+                <button class="slider-arrow next">›</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/home.js"></script>
+</body>
+</html>

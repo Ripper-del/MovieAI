@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - MovieAI</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="shortcut icon" href="assets/img/favicon.webp" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/" class="logo">
+            <img src="assets/img/logo.webp" alt="MovieAI">
+        </a>
+    </nav>
+
+    <div class="form-container">
+        <div class="form-wrapper">
+            <div class="form-box sign-in active">
+                <h2>Sign In</h2>
+                <form id="signin-form">
+                    <div class="input-group">
+                        <input type="email" required>
+                        <label>Email or phone number</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <button type="submit" class="submit-btn">Sign In</button>
+                    <div class="remember-forgot">
+                        <label>
+                            <input type="checkbox"> Remember me
+                        </label>
+                        <a href="#">Forgot password?</a>
+                    </div>
+                    <div class="signup-link">
+                        <span>New to MovieAI?</span>
+                        <a href="#" class="switch-form" data-form="signup">Sign up now</a>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box sign-up">
+                <h2>Sign Up</h2>
+                <form id="signup-form">
+                    <div class="input-group">
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" required>
+                        <label>Confirm Password</label>
+                    </div>
+                    <button type="submit" class="submit-btn">Sign Up</button>
+                    <div class="signin-link">
+                        <span>Already have an account?</span>
+                        <a href="#" class="switch-form" data-form="signin">Sign in now</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/login.js"></script>
+</body>
+</html>
